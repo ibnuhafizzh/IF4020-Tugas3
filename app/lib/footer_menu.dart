@@ -15,7 +15,7 @@ class _FooterMenuState extends State<FooterMenu> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     InboxScreen(),
-    SentEmailScreen(),
+    SentMailScreen(),
     ProfileScreen(),
   ];
 

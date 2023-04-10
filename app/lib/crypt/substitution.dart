@@ -12,7 +12,7 @@ class Substitution {
     Random rand = Random(202303051750);
 
     int intn(int i) {
-      int num = rand.nextInt(pow(2, 63).toInt());
+      int num = rand.nextInt(pow(2, 32).toInt());
       return num % i;
     }
 
